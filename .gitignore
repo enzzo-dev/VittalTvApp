@@ -1,0 +1,33 @@
+# Dependências do Node
+/node_modules
+
+# Diretório de build (gerado pelo React durante o build de produção)
+/build
+
+# Configurações do ambiente local
+/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações do editor de código e IDEs
+/.idea
+/.vscode
+*.swp
+
+# Sistema operacional
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Arquivos relacionados a pacotes de lock
+package-lock.json
+yarn.lock
+
+# Cache
+.cache
