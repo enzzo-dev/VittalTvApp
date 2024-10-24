@@ -1,0 +1,105 @@
+﻿<Window x:Class="GeradorDeSenhas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gerador de Senhas" Height="700" Width="1100">
+    <Window.Background>
+        <ImageBrush ImageSource="pack://application:,,,/Resources/fundo-escolhersenha.png" />
+    </Window.Background>
+
+
+    <Grid>
+        
+
+        <!-- Grid com os Botões -->
+        <UniformGrid Columns="3" Rows="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1200" Height="500" Margin="0,100,0,0">
+            <!-- Botão Preferencial -->
+            <Button  
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                Opacity="0"
+                    Foreground="#06444f" 
+                    Background="White" 
+                    BorderBrush="#FFFFFF" 
+                    BorderThickness="0"
+                    Click="GerarSenha_Senha_Preferencial" 
+                    Margin="50,30,60,0"  
+                Height="150" Width="340"/>
+
+                <!-- Botão Telemedicina -->
+                <Button 
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    Opacity="0"
+                    Foreground="#06444f" 
+                    Background="White" 
+                    BorderBrush="#FFFFFF" 
+                    BorderThickness="0"
+                    Click="GerarSenhaTeleMedicina" 
+                    Margin="50,40,90,0"  
+                    Height="150" Width="300"/>
+
+                    <!-- Botão Clínico Geral -->
+                    <Button
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    Opacity="0"
+                    Foreground="#06444f" 
+                    Background="White" 
+                    BorderBrush="#FFFFFF" 
+                    BorderThickness="0"
+                    Click="GerarSenhaClinico" 
+                    Margin="20,40,90,0"  
+                        Height="150" Width="300"/>
+
+                        
+                        <Button 
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    Foreground="#06444f" 
+                    Background="White" 
+                    BorderBrush="#FFFFFF"
+                            Opacity="0"
+                    BorderThickness="0"
+                    Click="GerarSenhaExameLab" 
+                    Margin="50,0,60,40"  
+                            Height="120" Width="350"/>
+
+                           
+                            <Button 
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    Foreground="#06444f" 
+                                Opacity="0"
+                    Background="White" 
+                    BorderBrush="#FFFFFF" 
+                    BorderThickness="0"
+                    Click="GerarSenhaExameIMG" 
+                    Margin="50,0,60,40"  
+                    Height="150" Width="300"/>
+
+                               
+                                <Button Content="ATENDIMENTO ORTOPEDISTA" 
+                    FontSize="16" 
+                    FontWeight="Bold" 
+                    Foreground="#06444f" 
+                    Background="White" 
+                    BorderBrush="#FFFFFF" 
+                                        Opacity="0"
+                    BorderThickness="0"
+                    Click="GerarSenhaOrto" 
+                    Margin="10,0,60,40"  
+                    Height="150" Width="300"/>
+        </UniformGrid>
+
+        <!-- TextBlock para exibir a senha -->
+        <TextBlock Name="SenhaGerada" 
+                   Text="" 
+                   Foreground="White" 
+                   FontSize="24" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Bottom" 
+                   Margin="0,0,0,30"/>
+
+      
+    </Grid>
+</Window>

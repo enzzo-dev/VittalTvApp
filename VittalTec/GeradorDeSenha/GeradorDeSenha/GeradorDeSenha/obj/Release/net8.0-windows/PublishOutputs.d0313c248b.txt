@@ -1,0 +1,5 @@
+C:\Users\gibro\source\repos\GeradorDeSenha\GeradorDeSenha\bin\Release\net8.0-windows\publish\GeradorDeSenhas.exe
+C:\Users\gibro\source\repos\GeradorDeSenha\GeradorDeSenha\bin\Release\net8.0-windows\publish\GeradorDeSenhas.dll
+C:\Users\gibro\source\repos\GeradorDeSenha\GeradorDeSenha\bin\Release\net8.0-windows\publish\GeradorDeSenhas.deps.json
+C:\Users\gibro\source\repos\GeradorDeSenha\GeradorDeSenha\bin\Release\net8.0-windows\publish\GeradorDeSenhas.runtimeconfig.json
+C:\Users\gibro\source\repos\GeradorDeSenha\GeradorDeSenha\bin\Release\net8.0-windows\publish\GeradorDeSenhas.pdb
